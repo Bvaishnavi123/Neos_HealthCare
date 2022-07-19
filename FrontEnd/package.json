@@ -1,5 +1,5 @@
 {
-  "name": "neos-frontend",
+  "name": "mern-todo",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,8 +8,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-query": "^3.39.1",
+    "react-router-dom": "^6.3.0",
+    "react-spinners": "^0.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
